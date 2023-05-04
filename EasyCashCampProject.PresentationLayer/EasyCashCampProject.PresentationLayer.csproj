@@ -17,4 +17,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EasyCashCampProject.BusinessLayer\EasyCashCampProject.BusinessLayer.csproj" />
+    <ProjectReference Include="..\EasyCashCampProject.DataAccessLayer\EasyCashCampProject.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EasyCashCampProject.DtoLayer\EasyCashCampProject.DtoLayer.csproj" />
+    <ProjectReference Include="..\EasyCashCampProject.EntityLayer\EasyCashCampProject.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
